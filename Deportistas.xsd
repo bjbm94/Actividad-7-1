@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="deportistas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="deportista" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="deporte" type="xs:string" />
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="lugar_de_nacimiento">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="nacionalidad" use="required" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="altura" type="xs:string" />
+                            <xs:element name="peso" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="sexo" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

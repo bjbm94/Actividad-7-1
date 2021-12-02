@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Pel%C3%ADculas.xsd">
+<pelicula genero="comedia romantica">
+  <titulo>Con faldas y a lo loco</titulo>
+  <director>Billy Wilder</director>
+  <pais idioma="ingles">Estados Unidos</pais>
+  <año>1959</año>
+  <duracion>121 minutos</duracion>
+</pelicula>
+<pelicula genero="comedia">
+  <titulo>Sopa de ganso</titulo>
+  <director>Leo McCarey</director>
+  <pais idioma="ingles">Estados Unidos</pais>
+  <año>1933</año>
+  <duracion>68</duracion>
+</pelicula>
+</peliculas>

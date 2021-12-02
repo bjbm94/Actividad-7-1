@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Deportistas.xsd">
+  <deportista sexo="hombre">
+    <deporte>Atletismo</deporte>
+    <nombre>Jesse Owens</nombre>
+    <lugar_de_nacimiento nacionalidad="americana">Oakville, Alabama, Estados Unidos</lugar_de_nacimiento>
+    <altura>180 cm</altura>
+    <peso>75 kg</peso>
+  </deportista>
+  <deportista sexo="hombre">
+    <deporte>Natación</deporte>
+    <nombre>Mark Spitz</nombre>
+    <lugar_de_nacimiento nacionalidad="americana">Modesto, California, Estados Unidos</lugar_de_nacimiento>
+    <altura>183 cm</altura>
+    <peso>73 kg</peso>
+  </deportista>
+</deportistas>

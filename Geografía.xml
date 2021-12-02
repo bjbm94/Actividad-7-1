@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geografia_mundial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Geograf%C3%ADa.xsd">
+  <pais continente="europa">
+    <nombre>España</nombre>
+    <capital>Madrid</capital>
+    <idioma>Castellano</idioma>
+    <gentilicio>Español,-la</gentilicio>
+    <moneda>Euro</moneda>
+  </pais>
+  <!-- No se me ocurría otro atributo a poner, por eso escribo este comentario -->
+</geografia_mundial>
